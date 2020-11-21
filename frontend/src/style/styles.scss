@@ -1,2 +1,12 @@
 @import 'reset.scss'; // Reset Default Browser Styles
-@import 'body.scss';
+@import 'index.scss';
+
+
+// Common Styles
+@import "style/common/Navbar.scss";
+
+
+// Components Styles
+@import "style/components/Header.scss";
+@import "style/components/ContentsWrapper.scss";
+@import "style/components/Layout.scss";
