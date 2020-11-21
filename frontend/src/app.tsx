@@ -1,10 +1,11 @@
 import React from 'react';
-
+import Routes from './routes'
+import  {BrowserRouter } from 'react-router-dom'
 const App = () => {
   return( 
-  <section>
-    Hi
-  </section>
+    <BrowserRouter>
+      <Routes />
+    </BrowserRouter>
 )}
 
 export default App
